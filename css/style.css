@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.flex {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------HEADER + LOGO---------------------------*/
+
+header {
+    width: 100%;
+    height: 250px;
+    background: purple; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(163, 7, 195, 0.5), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(163, 7, 195, 0.5), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(163, 7, 195 , 0.5), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(163, 7, 195, 0.5), white); /* Standard syntax */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo > h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    color: white;
+}
+
+.logo > h1 span {
+    font-size: 60px;
+    color: rgb(163, 7, 195);
+    font-weight: lighter;
+}
+
+/*------------------------FIRST SECTION-----------------------------------------*/
+
+section {
+    width: 100%;
+    height: 400px;
+}
+
+nav {
+    float: left;
+    margin-top: 50px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 46px;
+    color: rgb(101, 101, 101);
+}
+
+a:hover {
+    color: rgb(143, 0, 255);
+}
+
+/*--------------------------------formularz--------------------------------------------*/
+
+
+
+/*------------------------------footer----------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: 140px;
+    background: purple; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(bottom, rgba(163, 7, 195, 0.5), white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, rgba(163, 7, 195, 0.5), white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, rgba(163, 7, 195 , 0.5), white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(bottom, rgba(163, 7, 195, 0.5), white); /* Standard syntax */
+    padding: 25px;
+}
+
+.footer-contact {
+    text-align: center;
+    color: rgb(163, 7, 195);
+    font-size: 16px;
+    font-family: "Roboto", serif;
+}
+
+.footer-contact > h3 {
+    letter-spacing: 3px;
+}

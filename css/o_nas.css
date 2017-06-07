@@ -1,0 +1,39 @@
+.about-section {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.about-section > h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: darkgrey;
+    font-family: "Roboto", serif;
+}
+
+.about-section > p {
+    width: 450px;
+    font-size: 20px;
+    color: darkgrey;
+    font-family: "Roboto", serif;
+}
+
+.tasks {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.tasks > h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: darkgrey;
+    font-family: "Roboto", serif;
+}
+
+.tasks > ol {
+    width: 450px;
+    font-size: 16px;
+    color: darkgrey;
+    font-family: "Roboto", serif;
+}
